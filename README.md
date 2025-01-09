@@ -1,6 +1,6 @@
 # Lens Network Examples
 
-Sample projects integrating Lens network in popular development frameworks:
+Sample projects integrating Lens Network Sepolia Restnet in popular development frameworks:
 
 - `/viem` - JavaScript / TypeScript integration library
 - `/ethers` - JavaScript / TypeScript integration library

@@ -1,4 +1,4 @@
-## Lens Testnet Viem Example
+## Lens Testnet Ethers Example
 
 This project uses [pnpm](https://pnpm.io) for package management. Ensure you have it installed before proceeding.
 
