@@ -6,7 +6,7 @@ import { Web3Provider } from "@/components/Web3Provider";
 import { PingButton } from "@/components/PingButton";
 
 export default function Page() {
-  const [txHash, setTxHash] = useState<string | null>(null);
+  const [, setTxHash] = useState<string | null>(null);
 
   const handleTransactionConfirmed = (hash: string) => {
     setTxHash(hash);

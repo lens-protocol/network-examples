@@ -2,7 +2,7 @@ import { WagmiProvider, createConfig, http } from "wagmi";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ConnectKitProvider, getDefaultConfig } from "connectkit";
 import { ReactNode } from "react";
-import { chains } from "@lens-network/sdk/viem";
+import { chains } from "@lens-chain/sdk/viem";
 
 const config = createConfig(
   getDefaultConfig({
