@@ -1,7 +1,7 @@
 import { pingAbi } from "@/utils/pingAbi";
 import { Button } from "./ui/button";
 import { useAccount, useWriteContract, useSwitchChain } from "wagmi";
-import { chains } from "@lens-network/sdk/viem";
+import { chains } from "@lens-chain/sdk/viem";
 import { useEffect } from "react";
 
 export function PingButton({

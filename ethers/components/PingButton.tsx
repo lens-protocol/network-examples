@@ -1,7 +1,7 @@
 import { pingAbi } from "@/utils/pingAbi";
 import { Button } from "./ui/button";
-import { useAccount, useWriteContract, useSwitchChain } from "wagmi";
-import { chains } from "@lens-network/sdk/viem";
+import { useAccount, useSwitchChain } from "wagmi";
+import { chains } from "@lens-chain/sdk/viem";
 import { useState } from "react";
 import { useEthersSigner } from "@/lib/utils";
 import { ethers } from "ethers";

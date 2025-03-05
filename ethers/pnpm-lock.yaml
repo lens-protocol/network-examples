@@ -8,9 +8,9 @@ importers:
 
   .:
     dependencies:
-      '@lens-network/sdk':
-        specifier: 0.0.0-canary-20241203140504
-        version: 0.0.0-canary-20241203140504(ethers@6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10))(viem@2.22.1(bufferutil@4.0.9)(typescript@5.7.2)(utf-8-validate@5.0.10))
+      '@lens-chain/sdk':
+        specifier: 0.0.0-canary-20250304104100
+        version: 0.0.0-canary-20250304104100(ethers@6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10))(viem@2.22.1(bufferutil@4.0.9)(typescript@5.7.2)(utf-8-validate@5.0.10))
       '@radix-ui/react-slot':
         specifier: ^1.1.1
         version: 1.1.1(@types/react@19.0.2)(react@19.0.0)
@@ -412,8 +412,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@lens-network/sdk@0.0.0-canary-20241203140504':
-    resolution: {integrity: sha512-w5mNEXQTP0pSkCq6b8sgM2/87dad1gFTP7hbaDxy4lXnM1fBrVA5OzxWRfCIJJY8/NGdw4RYhEzJoXf4IRR97w==}
+  '@lens-chain/sdk@0.0.0-canary-20250304104100':
+    resolution: {integrity: sha512-OSWd3fhplg8SJuExD78DBIwI9k95uwHjslQtgpjrmHvTB5LvqbxCEGnT57lus7drqmAGuE0yzpEo9rj+EsmCxg==}
     engines: {node: '>=18', pnpm: '>=9.1.2'}
     peerDependencies:
       ethers: ^6.12.1
@@ -3437,7 +3437,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@lens-network/sdk@0.0.0-canary-20241203140504(ethers@6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10))(viem@2.22.1(bufferutil@4.0.9)(typescript@5.7.2)(utf-8-validate@5.0.10))':
+  '@lens-chain/sdk@0.0.0-canary-20250304104100(ethers@6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10))(viem@2.22.1(bufferutil@4.0.9)(typescript@5.7.2)(utf-8-validate@5.0.10))':
     optionalDependencies:
       ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       viem: 2.22.1(bufferutil@4.0.9)(typescript@5.7.2)(utf-8-validate@5.0.10)
